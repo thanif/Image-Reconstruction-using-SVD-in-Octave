@@ -10,5 +10,6 @@ c. Estimate Xest = Uc Sc Vc
 d. From Xest fill in missing values in X (only the missing values NOT the non-missing values)
 
 Call the given function to corrupt an image and return its grayscale representation:
+
 X = corruptImage(fileName,blockSize,displayImage)
 By default the blockSize is 5 and the boolean value to displayImage is set to true.
