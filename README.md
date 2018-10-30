@@ -1,5 +1,7 @@
 # Image-Reconstruction-using-SVD-in-Octave
 
+# Algorithm
+
 1. Store the missing values (missing pixels have nan value)
 2. Replace nan values by some initial value, e.g., zero or column mean 
 3. Repeat 
@@ -11,6 +13,8 @@ b. Retain only the k highest eigen values and corresponding eigen vectors and co
 c. Estimate Xest = Uc Sc Vc
 
 d. From Xest fill in missing values in X (only the missing values NOT the non-missing values)
+
+
 
 Call the given function to corrupt an image and return its grayscale representation:
 
